@@ -1,0 +1,45 @@
+[16-Sep-2022 19:33:48 UTC] PHP Warning:  require(./site.php): failed to open stream: No such file or directory in /home/chamayet/scenedebate.com/public/index.php on line 10
+[16-Sep-2022 19:33:48 UTC] PHP Warning:  require(./site.php): failed to open stream: No such file or directory in /home/chamayet/scenedebate.com/public/index.php on line 10
+[16-Sep-2022 19:33:48 UTC] PHP Fatal error:  require(): Failed opening required './site.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/chamayet/scenedebate.com/public/index.php on line 10
+[16-Sep-2022 20:14:12 UTC] PHP Warning:  require(./site.php): failed to open stream: No such file or directory in /home/chamayet/scenedebate.com/public/index.php on line 10
+[16-Sep-2022 20:14:12 UTC] PHP Warning:  require(./site.php): failed to open stream: No such file or directory in /home/chamayet/scenedebate.com/public/index.php on line 10
+[16-Sep-2022 20:14:12 UTC] PHP Fatal error:  require(): Failed opening required './site.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/chamayet/scenedebate.com/public/index.php on line 10
+[16-Sep-2022 20:14:45 UTC] PHP Warning:  require(./site.php): failed to open stream: No such file or directory in /home/chamayet/scenedebate.com/public/index.php on line 10
+[16-Sep-2022 20:14:45 UTC] PHP Warning:  require(./site.php): failed to open stream: No such file or directory in /home/chamayet/scenedebate.com/public/index.php on line 10
+[16-Sep-2022 20:14:45 UTC] PHP Fatal error:  require(): Failed opening required './site.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/chamayet/scenedebate.com/public/index.php on line 10
+[16-Sep-2022 20:14:48 UTC] PHP Warning:  require(./site.php): failed to open stream: No such file or directory in /home/chamayet/scenedebate.com/public/index.php on line 10
+[16-Sep-2022 20:14:48 UTC] PHP Warning:  require(./site.php): failed to open stream: No such file or directory in /home/chamayet/scenedebate.com/public/index.php on line 10
+[16-Sep-2022 20:14:48 UTC] PHP Fatal error:  require(): Failed opening required './site.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/chamayet/scenedebate.com/public/index.php on line 10
+[16-Sep-2022 20:14:54 UTC] PHP Warning:  require(./site.php): failed to open stream: No such file or directory in /home/chamayet/scenedebate.com/public/index.php on line 10
+[16-Sep-2022 20:14:54 UTC] PHP Warning:  require(./site.php): failed to open stream: No such file or directory in /home/chamayet/scenedebate.com/public/index.php on line 10
+[16-Sep-2022 20:14:54 UTC] PHP Fatal error:  require(): Failed opening required './site.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/chamayet/scenedebate.com/public/index.php on line 10
+[16-Sep-2022 20:14:59 UTC] PHP Warning:  require(./site.php): failed to open stream: No such file or directory in /home/chamayet/scenedebate.com/public/index.php on line 10
+[16-Sep-2022 20:14:59 UTC] PHP Warning:  require(./site.php): failed to open stream: No such file or directory in /home/chamayet/scenedebate.com/public/index.php on line 10
+[16-Sep-2022 20:14:59 UTC] PHP Fatal error:  require(): Failed opening required './site.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/chamayet/scenedebate.com/public/index.php on line 10
+[16-Sep-2022 20:21:40 UTC] PHP Warning:  require(./site.php): failed to open stream: No such file or directory in /home/chamayet/scenedebate.com/public/index.php on line 10
+[16-Sep-2022 20:21:40 UTC] PHP Warning:  require(./site.php): failed to open stream: No such file or directory in /home/chamayet/scenedebate.com/public/index.php on line 10
+[16-Sep-2022 20:21:40 UTC] PHP Fatal error:  require(): Failed opening required './site.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/chamayet/scenedebate.com/public/index.php on line 10
+[16-Sep-2022 20:29:07 UTC] PHP Warning:  require(./site.php): failed to open stream: No such file or directory in /home/chamayet/scenedebate.com/home/index.php on line 10
+[16-Sep-2022 20:29:07 UTC] PHP Warning:  require(./site.php): failed to open stream: No such file or directory in /home/chamayet/scenedebate.com/home/index.php on line 10
+[16-Sep-2022 20:29:07 UTC] PHP Fatal error:  require(): Failed opening required './site.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/chamayet/scenedebate.com/home/index.php on line 10
+[16-Sep-2022 20:29:24 UTC] PHP Warning:  require(./site.php): failed to open stream: No such file or directory in /home/chamayet/scenedebate.com/home/index.php on line 10
+[16-Sep-2022 20:29:24 UTC] PHP Warning:  require(./site.php): failed to open stream: No such file or directory in /home/chamayet/scenedebate.com/home/index.php on line 10
+[16-Sep-2022 20:29:24 UTC] PHP Fatal error:  require(): Failed opening required './site.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/chamayet/scenedebate.com/home/index.php on line 10
+[16-Sep-2022 20:29:25 UTC] PHP Warning:  require(./site.php): failed to open stream: No such file or directory in /home/chamayet/scenedebate.com/home/index.php on line 10
+[16-Sep-2022 20:29:25 UTC] PHP Warning:  require(./site.php): failed to open stream: No such file or directory in /home/chamayet/scenedebate.com/home/index.php on line 10
+[16-Sep-2022 20:29:25 UTC] PHP Fatal error:  require(): Failed opening required './site.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/chamayet/scenedebate.com/home/index.php on line 10
+[16-Sep-2022 20:29:26 UTC] PHP Warning:  require(./site.php): failed to open stream: No such file or directory in /home/chamayet/scenedebate.com/home/index.php on line 10
+[16-Sep-2022 20:29:26 UTC] PHP Warning:  require(./site.php): failed to open stream: No such file or directory in /home/chamayet/scenedebate.com/home/index.php on line 10
+[16-Sep-2022 20:29:26 UTC] PHP Fatal error:  require(): Failed opening required './site.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/chamayet/scenedebate.com/home/index.php on line 10
+[16-Sep-2022 20:29:26 UTC] PHP Warning:  require(./site.php): failed to open stream: No such file or directory in /home/chamayet/scenedebate.com/home/index.php on line 10
+[16-Sep-2022 20:29:26 UTC] PHP Warning:  require(./site.php): failed to open stream: No such file or directory in /home/chamayet/scenedebate.com/home/index.php on line 10
+[16-Sep-2022 20:29:26 UTC] PHP Fatal error:  require(): Failed opening required './site.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/chamayet/scenedebate.com/home/index.php on line 10
+[16-Sep-2022 20:29:31 UTC] PHP Warning:  require(./site.php): failed to open stream: No such file or directory in /home/chamayet/scenedebate.com/home/index.php on line 10
+[16-Sep-2022 20:29:31 UTC] PHP Warning:  require(./site.php): failed to open stream: No such file or directory in /home/chamayet/scenedebate.com/home/index.php on line 10
+[16-Sep-2022 20:29:31 UTC] PHP Fatal error:  require(): Failed opening required './site.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/chamayet/scenedebate.com/home/index.php on line 10
+[16-Sep-2022 20:29:39 UTC] PHP Warning:  require(./site.php): failed to open stream: No such file or directory in /home/chamayet/scenedebate.com/home/index.php on line 10
+[16-Sep-2022 20:29:39 UTC] PHP Warning:  require(./site.php): failed to open stream: No such file or directory in /home/chamayet/scenedebate.com/home/index.php on line 10
+[16-Sep-2022 20:29:39 UTC] PHP Fatal error:  require(): Failed opening required './site.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/chamayet/scenedebate.com/home/index.php on line 10
+[17-Sep-2022 21:46:23 UTC] PHP Warning:  require(./site.php): failed to open stream: No such file or directory in /home/chamayet/scenedebate.com/public/index.php on line 10
+[17-Sep-2022 21:46:23 UTC] PHP Warning:  require(./site.php): failed to open stream: No such file or directory in /home/chamayet/scenedebate.com/public/index.php on line 10
+[17-Sep-2022 21:46:23 UTC] PHP Fatal error:  require(): Failed opening required './site.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/chamayet/scenedebate.com/public/index.php on line 10
