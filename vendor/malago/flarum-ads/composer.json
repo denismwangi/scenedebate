@@ -1,0 +1,56 @@
+{
+    "name": "malago/flarum-ads",
+    "description": "Origin by Flagrow. Bombarding your users with ads.",
+    "keywords": [
+        "flarum",
+        "ads", "advertising","adsense"
+    ],
+    "type": "flarum-extension",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Daniël Klabbers",
+            "email": "daniel+flarum@klabbers.email",
+            "homepage": "http://hyn.me"
+        },
+        {
+            "name": "Clark Winkelmann",
+            "email": "clark.winkelmann@gmail.com",
+            "homepage": "https://clarkwinkelmann.com"
+        },
+        {
+            "name": "Andre Pullinen",
+            "email": "andre.pullinen@gmail.com",
+            "homepage": "https://github.com/andre-pullinen"
+        },
+        {
+            "name": "Miguel A. Lago",
+            "email": "miguelangel.lago@gmail.com"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/malago86/flarum-ads/issues",
+        "source": "https://github.com/malago86/flarum-ads"
+    },
+    "require": {
+        "flarum/core": "^1.0.0"
+    },
+    "extra": {
+        "flarum-extension": {
+            "title": "Ads",
+            "icon": {
+                "name": "fas fa-ad",
+                "backgroundColor": "#c4c4f4",
+                "color": "#5f4bb6"
+            }
+        },
+        "flagrow": {
+            "discuss": ""
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Flagrow\\Ads\\": "src/"
+        }
+    }
+}

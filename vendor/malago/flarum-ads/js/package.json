@@ -1,0 +1,13 @@
+{
+    "name": "@malago/flarum-ads",
+    "version": "0.3.0",
+    "scripts": {
+        "build": "webpack --mode production",
+        "dev": "webpack --mode development --watch"
+    },
+    "dependencies": {
+        "flarum-webpack-config": "0.1.0-beta.10",
+        "webpack": "^4.17.1",
+        "webpack-cli": "^3.0.7"
+    }
+}

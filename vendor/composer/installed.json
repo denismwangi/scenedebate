@@ -57,6 +57,76 @@
             "install-path": "../axy/backtrace"
         },
         {
+            "name": "beberlei/assert",
+            "version": "v3.3.2",
+            "version_normalized": "3.3.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/beberlei/assert.git",
+                "reference": "cb70015c04be1baee6f5f5c953703347c0ac1655"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/beberlei/assert/zipball/cb70015c04be1baee6f5f5c953703347c0ac1655",
+                "reference": "cb70015c04be1baee6f5f5c953703347c0ac1655",
+                "shasum": ""
+            },
+            "require": {
+                "ext-ctype": "*",
+                "ext-json": "*",
+                "ext-mbstring": "*",
+                "ext-simplexml": "*",
+                "php": "^7.0 || ^8.0"
+            },
+            "require-dev": {
+                "friendsofphp/php-cs-fixer": "*",
+                "phpstan/phpstan": "*",
+                "phpunit/phpunit": ">=6.0.0",
+                "yoast/phpunit-polyfills": "^0.1.0"
+            },
+            "suggest": {
+                "ext-intl": "Needed to allow Assertion::count(), Assertion::isCountable(), Assertion::minCount(), and Assertion::maxCount() to operate on ResourceBundles"
+            },
+            "time": "2021-12-16T21:41:27+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "files": [
+                    "lib/Assert/functions.php"
+                ],
+                "psr-4": {
+                    "Assert\\": "lib/Assert"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-2-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Benjamin Eberlei",
+                    "email": "kontakt@beberlei.de",
+                    "role": "Lead Developer"
+                },
+                {
+                    "name": "Richard Quadling",
+                    "email": "rquadling@gmail.com",
+                    "role": "Collaborator"
+                }
+            ],
+            "description": "Thin assertion library for input validation in business models.",
+            "keywords": [
+                "assert",
+                "assertion",
+                "validation"
+            ],
+            "support": {
+                "issues": "https://github.com/beberlei/assert/issues",
+                "source": "https://github.com/beberlei/assert/tree/v3.3.2"
+            },
+            "install-path": "../beberlei/assert"
+        },
+        {
             "name": "brick/math",
             "version": "0.9.3",
             "version_normalized": "0.9.3.0",
@@ -884,6 +954,54 @@
                 }
             ],
             "install-path": "../egulias/email-validator"
+        },
+        {
+            "name": "enshrined/svg-sanitize",
+            "version": "0.15.4",
+            "version_normalized": "0.15.4.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/darylldoyle/svg-sanitizer.git",
+                "reference": "e50b83a2f1f296ca61394fe88fbfe3e896a84cf4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/darylldoyle/svg-sanitizer/zipball/e50b83a2f1f296ca61394fe88fbfe3e896a84cf4",
+                "reference": "e50b83a2f1f296ca61394fe88fbfe3e896a84cf4",
+                "shasum": ""
+            },
+            "require": {
+                "ext-dom": "*",
+                "ext-libxml": "*",
+                "php": "^7.0 || ^8.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^6.5 || ^8.5"
+            },
+            "time": "2022-02-21T09:13:59+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "enshrined\\svgSanitize\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Daryll Doyle",
+                    "email": "daryll@enshrined.co.uk"
+                }
+            ],
+            "description": "An SVG sanitizer for PHP",
+            "support": {
+                "issues": "https://github.com/darylldoyle/svg-sanitizer/issues",
+                "source": "https://github.com/darylldoyle/svg-sanitizer/tree/0.15.4"
+            },
+            "install-path": "../enshrined/svg-sanitize"
         },
         {
             "name": "fig/http-message-util",
@@ -2469,6 +2587,165 @@
             "install-path": "../flarum/tags"
         },
         {
+            "name": "fof/forum-statistics-widget",
+            "version": "1.0.2",
+            "version_normalized": "1.0.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/FriendsOfFlarum/forum-statistics-widget.git",
+                "reference": "3b00d7b185546fdabfa894ea6e81316d67b183d3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/FriendsOfFlarum/forum-statistics-widget/zipball/3b00d7b185546fdabfa894ea6e81316d67b183d3",
+                "reference": "3b00d7b185546fdabfa894ea6e81316d67b183d3",
+                "shasum": ""
+            },
+            "require": {
+                "flarum/core": "^1.0.0"
+            },
+            "time": "2021-11-26T02:06:36+00:00",
+            "type": "flarum-extension",
+            "extra": {
+                "flarum-extension": {
+                    "title": "FoF Forum Statistics Widget",
+                    "category": "feature",
+                    "icon": {
+                        "name": "fas fa-chart-bar",
+                        "backgroundColor": "#e74c3c",
+                        "color": "#fff"
+                    }
+                },
+                "flagrow": {
+                    "discuss": "https://discuss.flarum.org/d/22380"
+                }
+            },
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "FoF\\ForumStatisticsWidget\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Christian Lopez",
+                    "email": "me@ralkage.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Add a forum statistics widget to the sidenav section of your Flarum forum.",
+            "homepage": "https://friendsofflarum.org",
+            "keywords": [
+                "flarum",
+                "forum",
+                "statistics",
+                "widget"
+            ],
+            "support": {
+                "forum": "https://discuss.flarum.org/d/22380",
+                "issues": "https://github.com/FriendsOfFlarum/forum-statistics-widget/issues",
+                "source": "https://github.com/FriendsOfFlarum/forum-statistics-widget"
+            },
+            "funding": [
+                {
+                    "url": "https://opencollective.com/fof/donate",
+                    "type": "website"
+                }
+            ],
+            "install-path": "../fof/forum-statistics-widget"
+        },
+        {
+            "name": "fof/upload",
+            "version": "1.2.3",
+            "version_normalized": "1.2.3.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/FriendsOfFlarum/upload.git",
+                "reference": "d1f0e4bae11ce12f4d1f6482b380e48f345a8dd3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/FriendsOfFlarum/upload/zipball/d1f0e4bae11ce12f4d1f6482b380e48f345a8dd3",
+                "reference": "d1f0e4bae11ce12f4d1f6482b380e48f345a8dd3",
+                "shasum": ""
+            },
+            "require": {
+                "enshrined/svg-sanitize": "^0.15.4",
+                "ext-json": "*",
+                "flarum/core": "^1.2.0",
+                "guzzlehttp/guzzle": "^6.0 || ^7.0",
+                "ramsey/uuid": "^3.5.2 || ^4",
+                "softcreatr/php-mime-detector": "^3.0"
+            },
+            "replace": {
+                "flagrow/upload": "*"
+            },
+            "require-dev": {
+                "league/flysystem-aws-s3-v3": "^1.0",
+                "overtrue/flysystem-qiniu": "1.0.4"
+            },
+            "suggest": {
+                "league/flysystem-aws-s3-v3": "Uploads to AWS S3 using API version 3.",
+                "overtrue/flysystem-qiniu": "Uploads to QiNiu using API."
+            },
+            "time": "2022-05-25T08:47:01+00:00",
+            "type": "flarum-extension",
+            "extra": {
+                "flarum-extension": {
+                    "title": "FoF Upload",
+                    "category": "feature",
+                    "icon": {
+                        "name": "fas fa-file-upload",
+                        "backgroundColor": "#e74c3c",
+                        "color": "#fff"
+                    }
+                },
+                "flagrow": {
+                    "discuss": "https://discuss.flarum.org/d/4154"
+                }
+            },
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "FoF\\Upload\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Daniël Klabbers",
+                    "email": "daniel@klabbers.email",
+                    "homepage": "https://luceos.com/"
+                }
+            ],
+            "description": "The file upload extension for the Flarum forum with insane intelligence.",
+            "homepage": "https://friendsofflarum.org",
+            "keywords": [
+                "file",
+                "flarum",
+                "upload"
+            ],
+            "support": {
+                "forum": "https://discuss.flarum.org/d/4154",
+                "issues": "https://github.com/FriendsOfFlarum/upload/issues",
+                "source": "https://github.com/FriendsOfFlarum/upload"
+            },
+            "funding": [
+                {
+                    "url": "https://opencollective.com/fof/donate",
+                    "type": "website"
+                }
+            ],
+            "install-path": "../fof/upload"
+        },
+        {
             "name": "franzl/whoops-middleware",
             "version": "2.0.0",
             "version_normalized": "2.0.0.0",
@@ -2514,6 +2791,224 @@
                 "source": "https://github.com/franzliedke/whoops-middleware/tree/2.0.0"
             },
             "install-path": "../franzl/whoops-middleware"
+        },
+        {
+            "name": "guzzlehttp/guzzle",
+            "version": "7.5.0",
+            "version_normalized": "7.5.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/guzzle/guzzle.git",
+                "reference": "b50a2a1251152e43f6a37f0fa053e730a67d25ba"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/guzzle/guzzle/zipball/b50a2a1251152e43f6a37f0fa053e730a67d25ba",
+                "reference": "b50a2a1251152e43f6a37f0fa053e730a67d25ba",
+                "shasum": ""
+            },
+            "require": {
+                "ext-json": "*",
+                "guzzlehttp/promises": "^1.5",
+                "guzzlehttp/psr7": "^1.9 || ^2.4",
+                "php": "^7.2.5 || ^8.0",
+                "psr/http-client": "^1.0",
+                "symfony/deprecation-contracts": "^2.2 || ^3.0"
+            },
+            "provide": {
+                "psr/http-client-implementation": "1.0"
+            },
+            "require-dev": {
+                "bamarni/composer-bin-plugin": "^1.8.1",
+                "ext-curl": "*",
+                "php-http/client-integration-tests": "^3.0",
+                "phpunit/phpunit": "^8.5.29 || ^9.5.23",
+                "psr/log": "^1.1 || ^2.0 || ^3.0"
+            },
+            "suggest": {
+                "ext-curl": "Required for CURL handler support",
+                "ext-intl": "Required for Internationalized Domain Name (IDN) support",
+                "psr/log": "Required for using the Log middleware"
+            },
+            "time": "2022-08-28T15:39:27+00:00",
+            "type": "library",
+            "extra": {
+                "bamarni-bin": {
+                    "bin-links": true,
+                    "forward-command": false
+                },
+                "branch-alias": {
+                    "dev-master": "7.5-dev"
+                }
+            },
+            "installation-source": "dist",
+            "autoload": {
+                "files": [
+                    "src/functions_include.php"
+                ],
+                "psr-4": {
+                    "GuzzleHttp\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Graham Campbell",
+                    "email": "hello@gjcampbell.co.uk",
+                    "homepage": "https://github.com/GrahamCampbell"
+                },
+                {
+                    "name": "Michael Dowling",
+                    "email": "mtdowling@gmail.com",
+                    "homepage": "https://github.com/mtdowling"
+                },
+                {
+                    "name": "Jeremy Lindblom",
+                    "email": "jeremeamia@gmail.com",
+                    "homepage": "https://github.com/jeremeamia"
+                },
+                {
+                    "name": "George Mponos",
+                    "email": "gmponos@gmail.com",
+                    "homepage": "https://github.com/gmponos"
+                },
+                {
+                    "name": "Tobias Nyholm",
+                    "email": "tobias.nyholm@gmail.com",
+                    "homepage": "https://github.com/Nyholm"
+                },
+                {
+                    "name": "Márk Sági-Kazár",
+                    "email": "mark.sagikazar@gmail.com",
+                    "homepage": "https://github.com/sagikazarmark"
+                },
+                {
+                    "name": "Tobias Schultze",
+                    "email": "webmaster@tubo-world.de",
+                    "homepage": "https://github.com/Tobion"
+                }
+            ],
+            "description": "Guzzle is a PHP HTTP client library",
+            "keywords": [
+                "client",
+                "curl",
+                "framework",
+                "http",
+                "http client",
+                "psr-18",
+                "psr-7",
+                "rest",
+                "web service"
+            ],
+            "support": {
+                "issues": "https://github.com/guzzle/guzzle/issues",
+                "source": "https://github.com/guzzle/guzzle/tree/7.5.0"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/GrahamCampbell",
+                    "type": "github"
+                },
+                {
+                    "url": "https://github.com/Nyholm",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/guzzlehttp/guzzle",
+                    "type": "tidelift"
+                }
+            ],
+            "install-path": "../guzzlehttp/guzzle"
+        },
+        {
+            "name": "guzzlehttp/promises",
+            "version": "1.5.2",
+            "version_normalized": "1.5.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/guzzle/promises.git",
+                "reference": "b94b2807d85443f9719887892882d0329d1e2598"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/guzzle/promises/zipball/b94b2807d85443f9719887892882d0329d1e2598",
+                "reference": "b94b2807d85443f9719887892882d0329d1e2598",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.5"
+            },
+            "require-dev": {
+                "symfony/phpunit-bridge": "^4.4 || ^5.1"
+            },
+            "time": "2022-08-28T14:55:35+00:00",
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.5-dev"
+                }
+            },
+            "installation-source": "dist",
+            "autoload": {
+                "files": [
+                    "src/functions_include.php"
+                ],
+                "psr-4": {
+                    "GuzzleHttp\\Promise\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Graham Campbell",
+                    "email": "hello@gjcampbell.co.uk",
+                    "homepage": "https://github.com/GrahamCampbell"
+                },
+                {
+                    "name": "Michael Dowling",
+                    "email": "mtdowling@gmail.com",
+                    "homepage": "https://github.com/mtdowling"
+                },
+                {
+                    "name": "Tobias Nyholm",
+                    "email": "tobias.nyholm@gmail.com",
+                    "homepage": "https://github.com/Nyholm"
+                },
+                {
+                    "name": "Tobias Schultze",
+                    "email": "webmaster@tubo-world.de",
+                    "homepage": "https://github.com/Tobion"
+                }
+            ],
+            "description": "Guzzle promises library",
+            "keywords": [
+                "promise"
+            ],
+            "support": {
+                "issues": "https://github.com/guzzle/promises/issues",
+                "source": "https://github.com/guzzle/promises/tree/1.5.2"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/GrahamCampbell",
+                    "type": "github"
+                },
+                {
+                    "url": "https://github.com/Nyholm",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/guzzlehttp/promises",
+                    "type": "tidelift"
+                }
+            ],
+            "install-path": "../guzzlehttp/promises"
         },
         {
             "name": "guzzlehttp/psr7",
@@ -4603,6 +5098,83 @@
             "install-path": "../league/mime-type-detection"
         },
         {
+            "name": "malago/flarum-ads",
+            "version": "0.3.2",
+            "version_normalized": "0.3.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/malago86/flarum-ads.git",
+                "reference": "dd9b280018c865af8be5ab839e00d6b14a396cf7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/malago86/flarum-ads/zipball/dd9b280018c865af8be5ab839e00d6b14a396cf7",
+                "reference": "dd9b280018c865af8be5ab839e00d6b14a396cf7",
+                "shasum": ""
+            },
+            "require": {
+                "flarum/core": "^1.0.0"
+            },
+            "time": "2021-07-07T20:35:10+00:00",
+            "type": "flarum-extension",
+            "extra": {
+                "flarum-extension": {
+                    "title": "Ads",
+                    "icon": {
+                        "name": "fas fa-ad",
+                        "backgroundColor": "#c4c4f4",
+                        "color": "#5f4bb6"
+                    }
+                },
+                "flagrow": {
+                    "discuss": ""
+                }
+            },
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "Flagrow\\Ads\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Daniël Klabbers",
+                    "email": "daniel+flarum@klabbers.email",
+                    "homepage": "http://hyn.me"
+                },
+                {
+                    "name": "Clark Winkelmann",
+                    "email": "clark.winkelmann@gmail.com",
+                    "homepage": "https://clarkwinkelmann.com"
+                },
+                {
+                    "name": "Andre Pullinen",
+                    "email": "andre.pullinen@gmail.com",
+                    "homepage": "https://github.com/andre-pullinen"
+                },
+                {
+                    "name": "Miguel A. Lago",
+                    "email": "miguelangel.lago@gmail.com"
+                }
+            ],
+            "description": "Origin by Flagrow. Bombarding your users with ads.",
+            "keywords": [
+                "Advertising",
+                "ads",
+                "adsense",
+                "flarum"
+            ],
+            "support": {
+                "issues": "https://github.com/malago86/flarum-ads/issues",
+                "source": "https://github.com/malago86/flarum-ads"
+            },
+            "install-path": "../malago/flarum-ads"
+        },
+        {
             "name": "matthiasmullie/minify",
             "version": "1.3.68",
             "version_normalized": "1.3.68.0",
@@ -4730,6 +5302,75 @@
                 "source": "https://github.com/matthiasmullie/path-converter/tree/1.1.3"
             },
             "install-path": "../matthiasmullie/path-converter"
+        },
+        {
+            "name": "michaelbelgium/flarum-discussion-views",
+            "version": "v7.1.3",
+            "version_normalized": "7.1.3.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/MichaelBelgium/flarum-discussion-views.git",
+                "reference": "99fa5d5509b9c8eee67d8c4970075d13f7617fc4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/MichaelBelgium/flarum-discussion-views/zipball/99fa5d5509b9c8eee67d8c4970075d13f7617fc4",
+                "reference": "99fa5d5509b9c8eee67d8c4970075d13f7617fc4",
+                "shasum": ""
+            },
+            "require": {
+                "flarum/core": "^1.0"
+            },
+            "suggest": {
+                "dynastyking/flarum-lang-ptbr": "Includes Brazilian Portuguese translation for this extension",
+                "michaelbelgium/flarum-dutch": "Includes Dutch translation for this extension",
+                "rob006/flarum-lang-polish": "Includes Polish translation for this extension",
+                "rooaaar/lang-french-extended": "Includes French translation for this extension"
+            },
+            "time": "2022-04-13T14:53:08+00:00",
+            "type": "flarum-extension",
+            "extra": {
+                "flarum-extension": {
+                    "title": "Discussion views",
+                    "icon": {
+                        "name": "far fa-eye",
+                        "backgroundColor": "#88CC23",
+                        "color": "#fff"
+                    }
+                },
+                "flagrow": {
+                    "discuss": "https://discuss.flarum.org/d/26269"
+                }
+            },
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "Michaelbelgium\\Discussionviews\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Michael V.",
+                    "email": "michael@michaelbelgium.me"
+                }
+            ],
+            "description": "Add views to flarum discussions",
+            "support": {
+                "forum": "https://discuss.flarum.org/d/26269",
+                "issues": "https://github.com/MichaelBelgium/flarum-discussion-views/issues",
+                "source": "https://github.com/MichaelBelgium/flarum-discussion-views"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/sponsors/MichaelBelgium",
+                    "type": "github"
+                }
+            ],
+            "install-path": "../michaelbelgium/flarum-discussion-views"
         },
         {
             "name": "middlewares/base-path",
@@ -5057,6 +5698,67 @@
             "install-path": "../monolog/monolog"
         },
         {
+            "name": "nearata/flarum-ext-twofactor",
+            "version": "v2.1.1",
+            "version_normalized": "2.1.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Nearata/flarum-ext-twofactor.git",
+                "reference": "e03c0558f2f9688b50ff8db189d7b3f833882e60"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Nearata/flarum-ext-twofactor/zipball/e03c0558f2f9688b50ff8db189d7b3f833882e60",
+                "reference": "e03c0558f2f9688b50ff8db189d7b3f833882e60",
+                "shasum": ""
+            },
+            "require": {
+                "flarum/core": "^1.0",
+                "spomky-labs/otphp": "^10.0.3|^11.0.0"
+            },
+            "time": "2022-09-15T18:29:46+00:00",
+            "type": "flarum-extension",
+            "extra": {
+                "flarum-extension": {
+                    "title": "Two Factor",
+                    "category": "feature",
+                    "icon": {
+                        "name": "fas fa-shield-alt",
+                        "backgroundColor": "#D72638",
+                        "color": "#fff"
+                    }
+                }
+            },
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "Nearata\\TwoFactor\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Unlicense"
+            ],
+            "authors": [
+                {
+                    "name": "Nearata",
+                    "email": "nearata@protonmail.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Allow your users to enable two factor authentication.",
+            "keywords": [
+                "flarum",
+                "security",
+                "twofactor"
+            ],
+            "support": {
+                "issues": "https://github.com/Nearata/flarum-ext-twofactor/issues",
+                "source": "https://github.com/Nearata/flarum-ext-twofactor/tree/v2.1.1"
+            },
+            "install-path": "../nearata/flarum-ext-twofactor"
+        },
+        {
             "name": "nesbot/carbon",
             "version": "2.59.1",
             "version_normalized": "2.59.1.0",
@@ -5280,6 +5982,76 @@
             "install-path": "../opis/closure"
         },
         {
+            "name": "paragonie/constant_time_encoding",
+            "version": "v2.6.3",
+            "version_normalized": "2.6.3.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/paragonie/constant_time_encoding.git",
+                "reference": "58c3f47f650c94ec05a151692652a868995d2938"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/paragonie/constant_time_encoding/zipball/58c3f47f650c94ec05a151692652a868995d2938",
+                "reference": "58c3f47f650c94ec05a151692652a868995d2938",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7|^8"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^6|^7|^8|^9",
+                "vimeo/psalm": "^1|^2|^3|^4"
+            },
+            "time": "2022-06-14T06:56:20+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "ParagonIE\\ConstantTime\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Paragon Initiative Enterprises",
+                    "email": "security@paragonie.com",
+                    "homepage": "https://paragonie.com",
+                    "role": "Maintainer"
+                },
+                {
+                    "name": "Steve 'Sc00bz' Thomas",
+                    "email": "steve@tobtu.com",
+                    "homepage": "https://www.tobtu.com",
+                    "role": "Original Developer"
+                }
+            ],
+            "description": "Constant-time Implementations of RFC 4648 Encoding (Base-64, Base-32, Base-16)",
+            "keywords": [
+                "base16",
+                "base32",
+                "base32_decode",
+                "base32_encode",
+                "base64",
+                "base64_decode",
+                "base64_encode",
+                "bin2hex",
+                "encoding",
+                "hex",
+                "hex2bin",
+                "rfc4648"
+            ],
+            "support": {
+                "email": "info@paragonie.com",
+                "issues": "https://github.com/paragonie/constant_time_encoding/issues",
+                "source": "https://github.com/paragonie/constant_time_encoding"
+            },
+            "install-path": "../paragonie/constant_time_encoding"
+        },
+        {
             "name": "psr/container",
             "version": "1.1.1",
             "version_normalized": "1.1.1.0",
@@ -5382,6 +6154,61 @@
                 "source": "https://github.com/php-fig/event-dispatcher/tree/1.0.0"
             },
             "install-path": "../psr/event-dispatcher"
+        },
+        {
+            "name": "psr/http-client",
+            "version": "1.0.1",
+            "version_normalized": "1.0.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/php-fig/http-client.git",
+                "reference": "2dfb5f6c5eff0e91e20e913f8c5452ed95b86621"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/php-fig/http-client/zipball/2dfb5f6c5eff0e91e20e913f8c5452ed95b86621",
+                "reference": "2dfb5f6c5eff0e91e20e913f8c5452ed95b86621",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.0 || ^8.0",
+                "psr/http-message": "^1.0"
+            },
+            "time": "2020-06-29T06:28:15+00:00",
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "Psr\\Http\\Client\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "PHP-FIG",
+                    "homepage": "http://www.php-fig.org/"
+                }
+            ],
+            "description": "Common interface for HTTP clients",
+            "homepage": "https://github.com/php-fig/http-client",
+            "keywords": [
+                "http",
+                "http-client",
+                "psr",
+                "psr-18"
+            ],
+            "support": {
+                "source": "https://github.com/php-fig/http-client/tree/master"
+            },
+            "install-path": "../psr/http-client"
         },
         {
             "name": "psr/http-factory",
@@ -6173,6 +7000,150 @@
                 "source": "https://github.com/s9e/TextFormatter/tree/2.11.3"
             },
             "install-path": "../s9e/text-formatter"
+        },
+        {
+            "name": "softcreatr/php-mime-detector",
+            "version": "3.2.1",
+            "version_normalized": "3.2.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/SoftCreatR/php-mime-detector.git",
+                "reference": "bd26abae1659901617ed51150063c310e089eef9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/SoftCreatR/php-mime-detector/zipball/bd26abae1659901617ed51150063c310e089eef9",
+                "reference": "bd26abae1659901617ed51150063c310e089eef9",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.1.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": ">=7.0",
+                "roave/security-advisories": "dev-master",
+                "squizlabs/php_codesniffer": "^3.5"
+            },
+            "time": "2021-05-30T10:34:43+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "SoftCreatR\\MimeDetector\\": "src/SoftCreatR/MimeDetector"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "ISC"
+            ],
+            "authors": [
+                {
+                    "name": "Sascha Greuel",
+                    "email": "hello@1-2.dev"
+                },
+                {
+                    "name": "Sebastian Zimmer",
+                    "email": "morik@softcreatr.de"
+                }
+            ],
+            "description": "Mime Detector Decoder",
+            "homepage": "https://1-2.dev",
+            "keywords": [
+                "Magic Number",
+                "file type",
+                "mime",
+                "mime type"
+            ],
+            "support": {
+                "email": "hello@1-2.dev",
+                "issues": "https://github.com/SoftCreatR/php-mime-detector/issues",
+                "source": "https://github.com/SoftCreatR/php-mime-detector"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/softcreatr",
+                    "type": "github"
+                }
+            ],
+            "install-path": "../softcreatr/php-mime-detector"
+        },
+        {
+            "name": "spomky-labs/otphp",
+            "version": "v10.0.3",
+            "version_normalized": "10.0.3.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Spomky-Labs/otphp.git",
+                "reference": "9784d9f7c790eed26e102d6c78f12c754036c366"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Spomky-Labs/otphp/zipball/9784d9f7c790eed26e102d6c78f12c754036c366",
+                "reference": "9784d9f7c790eed26e102d6c78f12c754036c366",
+                "shasum": ""
+            },
+            "require": {
+                "beberlei/assert": "^3.0",
+                "ext-mbstring": "*",
+                "paragonie/constant_time_encoding": "^2.0",
+                "php": "^7.2|^8.0",
+                "thecodingmachine/safe": "^0.1.14|^1.0|^2.0"
+            },
+            "require-dev": {
+                "php-coveralls/php-coveralls": "^2.0",
+                "phpstan/phpstan": "^0.12",
+                "phpstan/phpstan-beberlei-assert": "^0.12",
+                "phpstan/phpstan-deprecation-rules": "^0.12",
+                "phpstan/phpstan-phpunit": "^0.12",
+                "phpstan/phpstan-strict-rules": "^0.12",
+                "phpunit/phpunit": "^8.0",
+                "thecodingmachine/phpstan-safe-rule": "^1.0 || ^2.0"
+            },
+            "time": "2022-03-17T08:00:35+00:00",
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "v10.0": "10.0.x-dev",
+                    "v9.0": "9.0.x-dev",
+                    "v8.3": "8.3.x-dev"
+                }
+            },
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "OTPHP\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Florent Morselli",
+                    "homepage": "https://github.com/Spomky"
+                },
+                {
+                    "name": "All contributors",
+                    "homepage": "https://github.com/Spomky-Labs/otphp/contributors"
+                }
+            ],
+            "description": "A PHP library for generating one time passwords according to RFC 4226 (HOTP Algorithm) and the RFC 6238 (TOTP Algorithm) and compatible with Google Authenticator",
+            "homepage": "https://github.com/Spomky-Labs/otphp",
+            "keywords": [
+                "FreeOTP",
+                "RFC 4226",
+                "RFC 6238",
+                "google authenticator",
+                "hotp",
+                "otp",
+                "totp"
+            ],
+            "support": {
+                "issues": "https://github.com/Spomky-Labs/otphp/issues",
+                "source": "https://github.com/Spomky-Labs/otphp/tree/v10.0.3"
+            },
+            "install-path": "../spomky-labs/otphp"
         },
         {
             "name": "swiftmailer/swiftmailer",
@@ -8711,6 +9682,148 @@
             "install-path": "../symfony/yaml"
         },
         {
+            "name": "thecodingmachine/safe",
+            "version": "v1.3.3",
+            "version_normalized": "1.3.3.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/thecodingmachine/safe.git",
+                "reference": "a8ab0876305a4cdaef31b2350fcb9811b5608dbc"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/thecodingmachine/safe/zipball/a8ab0876305a4cdaef31b2350fcb9811b5608dbc",
+                "reference": "a8ab0876305a4cdaef31b2350fcb9811b5608dbc",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.2"
+            },
+            "require-dev": {
+                "phpstan/phpstan": "^0.12",
+                "squizlabs/php_codesniffer": "^3.2",
+                "thecodingmachine/phpstan-strict-rules": "^0.12"
+            },
+            "time": "2020-10-28T17:51:34+00:00",
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "0.1-dev"
+                }
+            },
+            "installation-source": "dist",
+            "autoload": {
+                "files": [
+                    "deprecated/apc.php",
+                    "deprecated/libevent.php",
+                    "deprecated/mssql.php",
+                    "deprecated/stats.php",
+                    "lib/special_cases.php",
+                    "generated/apache.php",
+                    "generated/apcu.php",
+                    "generated/array.php",
+                    "generated/bzip2.php",
+                    "generated/calendar.php",
+                    "generated/classobj.php",
+                    "generated/com.php",
+                    "generated/cubrid.php",
+                    "generated/curl.php",
+                    "generated/datetime.php",
+                    "generated/dir.php",
+                    "generated/eio.php",
+                    "generated/errorfunc.php",
+                    "generated/exec.php",
+                    "generated/fileinfo.php",
+                    "generated/filesystem.php",
+                    "generated/filter.php",
+                    "generated/fpm.php",
+                    "generated/ftp.php",
+                    "generated/funchand.php",
+                    "generated/gmp.php",
+                    "generated/gnupg.php",
+                    "generated/hash.php",
+                    "generated/ibase.php",
+                    "generated/ibmDb2.php",
+                    "generated/iconv.php",
+                    "generated/image.php",
+                    "generated/imap.php",
+                    "generated/info.php",
+                    "generated/ingres-ii.php",
+                    "generated/inotify.php",
+                    "generated/json.php",
+                    "generated/ldap.php",
+                    "generated/libxml.php",
+                    "generated/lzf.php",
+                    "generated/mailparse.php",
+                    "generated/mbstring.php",
+                    "generated/misc.php",
+                    "generated/msql.php",
+                    "generated/mysql.php",
+                    "generated/mysqli.php",
+                    "generated/mysqlndMs.php",
+                    "generated/mysqlndQc.php",
+                    "generated/network.php",
+                    "generated/oci8.php",
+                    "generated/opcache.php",
+                    "generated/openssl.php",
+                    "generated/outcontrol.php",
+                    "generated/password.php",
+                    "generated/pcntl.php",
+                    "generated/pcre.php",
+                    "generated/pdf.php",
+                    "generated/pgsql.php",
+                    "generated/posix.php",
+                    "generated/ps.php",
+                    "generated/pspell.php",
+                    "generated/readline.php",
+                    "generated/rpminfo.php",
+                    "generated/rrd.php",
+                    "generated/sem.php",
+                    "generated/session.php",
+                    "generated/shmop.php",
+                    "generated/simplexml.php",
+                    "generated/sockets.php",
+                    "generated/sodium.php",
+                    "generated/solr.php",
+                    "generated/spl.php",
+                    "generated/sqlsrv.php",
+                    "generated/ssdeep.php",
+                    "generated/ssh2.php",
+                    "generated/stream.php",
+                    "generated/strings.php",
+                    "generated/swoole.php",
+                    "generated/uodbc.php",
+                    "generated/uopz.php",
+                    "generated/url.php",
+                    "generated/var.php",
+                    "generated/xdiff.php",
+                    "generated/xml.php",
+                    "generated/xmlrpc.php",
+                    "generated/yaml.php",
+                    "generated/yaz.php",
+                    "generated/zip.php",
+                    "generated/zlib.php"
+                ],
+                "psr-4": {
+                    "Safe\\": [
+                        "lib/",
+                        "deprecated/",
+                        "generated/"
+                    ]
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "PHP core functions that throw exceptions instead of returning FALSE on error",
+            "support": {
+                "issues": "https://github.com/thecodingmachine/safe/issues",
+                "source": "https://github.com/thecodingmachine/safe/tree/v1.3.3"
+            },
+            "install-path": "../thecodingmachine/safe"
+        },
+        {
             "name": "tijsverkoyen/css-to-inline-styles",
             "version": "2.2.4",
             "version_normalized": "2.2.4.0",
@@ -8765,6 +9878,155 @@
                 "source": "https://github.com/tijsverkoyen/CssToInlineStyles/tree/2.2.4"
             },
             "install-path": "../tijsverkoyen/css-to-inline-styles"
+        },
+        {
+            "name": "v17development/flarum-seo",
+            "version": "v1.8.0",
+            "version_normalized": "1.8.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/v17development/flarum-seo.git",
+                "reference": "cbbe884d2c1e0c79e0b708a7a4d924c2fc08545f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/v17development/flarum-seo/zipball/cbbe884d2c1e0c79e0b708a7a4d924c2fc08545f",
+                "reference": "cbbe884d2c1e0c79e0b708a7a4d924c2fc08545f",
+                "shasum": ""
+            },
+            "require": {
+                "ext-json": "*",
+                "flarum/core": "^1.0.0"
+            },
+            "conflict": {
+                "franzl/flarum-open-links-in-new-tab": "*",
+                "zerosonesfun/elint": "*"
+            },
+            "suggest": {
+                "fof/sitemap": "Allows you to generate powerful sitemap.xml files"
+            },
+            "time": "2021-05-29T13:17:07+00:00",
+            "type": "flarum-extension",
+            "extra": {
+                "flarum-extension": {
+                    "title": "SEO",
+                    "category": "feature",
+                    "icon": {
+                        "name": "fas fa-check",
+                        "backgroundColor": "#0072ff",
+                        "color": "#ffffff"
+                    }
+                },
+                "flagrow": {
+                    "discuss": "https://discuss.flarum.org/d/18316"
+                }
+            },
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "V17Development\\FlarumSeo\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "V17 Development",
+                    "email": "info@v17.dev"
+                }
+            ],
+            "description": "Adds SEO tags for your Flarum forum",
+            "homepage": "https://v17.dev/projects/flarum-seo",
+            "support": {
+                "docs": "https://community.v17.dev/knowledgebase/category/flarum-seo",
+                "forum": "https://discuss.flarum.org/d/18316",
+                "issues": "https://github.com/v17development/flarum-seo/issues",
+                "source": "https://github.com/v17development/flarum-seo"
+            },
+            "install-path": "../v17development/flarum-seo"
+        },
+        {
+            "name": "v17development/flarum-user-badges",
+            "version": "v1.1.0",
+            "version_normalized": "1.1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/v17development/flarum-user-badges.git",
+                "reference": "4befee8575986b94b1fa47b133736c06870aa159"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/v17development/flarum-user-badges/zipball/4befee8575986b94b1fa47b133736c06870aa159",
+                "reference": "4befee8575986b94b1fa47b133736c06870aa159",
+                "shasum": ""
+            },
+            "require": {
+                "ext-json": "*",
+                "flarum/core": "^1.3.1"
+            },
+            "suggest": {
+                "askvortsov/flarum-auto-moderator": "Allows you to automatically hand out badges to users"
+            },
+            "time": "2022-07-03T22:30:54+00:00",
+            "type": "flarum-extension",
+            "extra": {
+                "flarum-extension": {
+                    "title": "User badges",
+                    "category": "feature",
+                    "icon": {
+                        "name": "fas fa-user-tag",
+                        "backgroundColor": "#00ccb3",
+                        "color": "#225650"
+                    },
+                    "optional-dependencies": [
+                        "askvortsov/flarum-auto-moderator"
+                    ]
+                },
+                "flarum-cli": {
+                    "modules": {
+                        "admin": true,
+                        "forum": true,
+                        "js": true,
+                        "jsCommon": true,
+                        "css": true,
+                        "gitConf": true,
+                        "githubActions": true,
+                        "prettier": true,
+                        "typescript": false,
+                        "bundlewatch": false,
+                        "backendTesting": false,
+                        "editorConfig": true,
+                        "styleci": true
+                    }
+                }
+            },
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "V17Development\\FlarumUserBadges\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "V17 Development",
+                    "email": "info@v17.dev"
+                }
+            ],
+            "description": "Adds user badges to your Flarum community",
+            "homepage": "https://v17.dev/projects/flarum-user-badges",
+            "support": {
+                "docs": "https://community.v17.dev/knowledgebase/category/flarum-user-badges",
+                "forum": "https://discuss.flarum.org/d/26449",
+                "issues": "https://github.com/v17development/flarum-user-badges/issues",
+                "source": "https://github.com/v17development/flarum-user-badges"
+            },
+            "install-path": "../v17development/flarum-user-badges"
         },
         {
             "name": "voku/portable-ascii",
